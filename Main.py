@@ -26,7 +26,7 @@ th_jmax		= 0.577
 r_L			= 2.25 # rL=c/Omega
 L_j			= np.pi*r_L**2
 p_w0		= 1e-10
-b_w = 0.605
+b_w			= 0.605
 
 # constants in question???
 u_win = 1.0
