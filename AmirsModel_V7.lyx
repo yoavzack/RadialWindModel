@@ -1,0 +1,135 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage[use-david]{culmus}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{sectionbox}
+\usepackage{natbib}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "David"
+\font_sans "default" "David"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification false
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 0.7in
+\topmargin 0.7in
+\rightmargin 0.7in
+\bottommargin 0.7in
+\headheight 0.3in
+\headsep 0.3in
+\footskip 0.3in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 0bp
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dA_{w}}{dA_{0}}=\left(1+\frac{z}{z_{0}}\right)\frac{r_{w}}{\frac{r_{w}}{1+\frac{z}{z_{0}}}}=\left(1+\frac{z}{z_{0}}\right)^{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p & =p_{0}\left(\frac{\rho}{\rho_{0}}\right)^{\gamma}\\
+u & =u_{0}\frac{\rho_{0}}{\rho}\left(1+\frac{z}{z_{0}}\right)^{2}\\
+\rho & =\left[\left(\frac{u_{0}^{2}-u^{2}}{5p_{0}}+\frac{2}{5}\frac{GM_{BH}}{p_{0}}\left[\frac{1}{r}-\frac{1}{r_{0}}\right]+\frac{1}{\rho_{0}}\right)\right]^{\gamma-1}\rho_{0}^{\frac{\gamma}{\gamma-1}}
+\end{align*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\frac{\gamma}{\gamma-1} & = & \frac{5}{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align*}
+p_{w} & =p_{w0}\left(\frac{\rho_{w}}{\rho_{w0}}\right)^{\gamma}\\
+u_{w} & =u_{w0}\frac{\rho_{w0}}{\rho_{w}}\left(1+\frac{z_{w}}{z_{0}}\right)^{2}\\
+0 & =\frac{1}{\rho_{w0}^{\gamma}}\rho_{w}^{\gamma-1}+\frac{2\gamma}{\gamma-1}\frac{u_{w0}\rho_{w0}}{p_{w0}}\left(1+\frac{z}{z_{0}}\right)^{2}\rho_{w}^{-1}-\left[\frac{2\gamma}{\gamma-1}\frac{u_{w0}^{2}}{p_{w0}}+\frac{\gamma}{\gamma-1}\frac{GM_{BH}}{p_{w0}}\left[\frac{1}{r_{w}}-\frac{1}{r_{w0}}\right]+\frac{1}{\rho_{w0}}\right]
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
